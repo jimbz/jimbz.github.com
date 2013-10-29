@@ -1,0 +1,38 @@
+<script type="text/javascript">
+    function disp(s) {
+        var win;
+        var doc;
+        win = window.open("", "WINDOWID");
+        doc = win.document;
+        doc.open("text/plain");
+        doc.write("<pre>" + s + "</pre>");
+        doc.close();
+    }
+</script>
+<article id="publications">
+    <header>
+        <h1>
+            <a href="{{ SITEURL }}/index.html#publications" rel="bookmark" title="Permalink to Publications">
+                Publications
+            </a>
+        </h1>
+    </header>
+    <ul class="publications">
+    {% for key, year, formatted, text, bibtex, pdf, slides, poster in publications|reverse %}
+    <li class="publication">
+        <h3 class="title">{{ formatted.title }}</h3>
+        <span class="authors">{{ formatted.author }}</span>
+        {% if formatted.btitle %}
+        <span class="btitle">{{ formatted.btitle }}</span>
+        {% endif %}
+        <span class="date">{{ formatted.date }}</span>
+        <span class="links">
+        [&nbsp;<a href="javascript:disp('{{ bibtex|replace('\n', '\\n')|escape|forceescape }}');">Bibtex</a>&nbsp;]
+        {% for label, target in [('PDF', pdf), ('Slides', slides), ('Poster', poster)] %}
+        {{ "[&nbsp;<a href=\"%s\">%s</a>&nbsp;]" % (target, label) if target }}
+        </span>
+        {% endfor %}
+        </li>
+    {% endfor %}
+    </ul>
+</article>

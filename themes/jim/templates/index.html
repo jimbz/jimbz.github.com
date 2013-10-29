@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block menu %}
+{{ super() }}
+{% for article in articles_page.object_list|reverse %}
+    <li><a href="#{{ article.slug }}">{{ article.title }}</a></li>
+{% endfor %}
+    <li><a href="#publications">Publications</a></li>
+{% endblock %}
+
+{% block content %}
+<section id="content">
+
+{% for article in articles_page.object_list|reverse %}
+<article id="{{ article.slug }}">
+    <header>
+        <h1>
+            <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">
+                {{ article.title }}
+            </a>
+        </h1>
+    </header>
+    {{ article.content }}
+</article>
+{% endfor %}
+
+{# Publications #}
+{% if category is not defined %}
+{% include "publications.html" %}
+{% endif %}
+{% include 'pagination.html' %}
+</section><!-- /#content -->
+{% endblock content %}
