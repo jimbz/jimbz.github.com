@@ -13,7 +13,7 @@ DEFAULT_LANG = u'en'
 
 THEME = u'themes/jim/'
 
-STATIC_PATHS = ['images', 'pdf']
+STATIC_PATHS = ['images', 'pdf', 'CNAME']
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
