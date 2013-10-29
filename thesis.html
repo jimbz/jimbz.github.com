@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <!-- Bootstrap core CSS -->
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.min.js"></script>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        <!-- LESS pre-processor -->
+        <link rel="stylesheet/less" href="http://www.braux-zin.com/theme/less/main.less" type="text/css" />
+        <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/1.4.1/less.min.js"></script>
+
+
+
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar-menu" data-offset="50">
+<div class="container">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <!--
+                    Brand and toggle get grouped for better mobile display
+        -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle"
+                data-toggle="collapse"
+                data-target=".navbar-menu">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://www.braux-zin.com">Jim Braux-Zin's homepage</a>
+        </div>
+
+        <!--
+            Collect the nav links, forms, and other content for
+            toggling
+        -->
+        <div class="collapse navbar-collapse navbar-menu" role="navigation">
+            <ul class="nav navbar-nav">
+                
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li style="padding:11px 15px 10px 15px;">
+                <div class="g-follow" data-annotation="bubble" data-height="24" data-href="//plus.google.com/116983469368569043160" data-rel="author"></div>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </nav>
+
+    <div class="wrapper">
+        <div class="content" role="main">
+<section id="content" class="body">
+  <header>
+    <h2 class="entry-title">
+      <a href="http://www.braux-zin.com/index.html#thesis" rel="bookmark"
+         title="Permalink to Thesis">Thesis</a></h2>
+ 
+  </header>
+  <footer class="post-info">
+    <abbr class="published" title="2013-10-28T00:00:00">
+      lun. 28 octobre 2013
+    </abbr>
+    <address class="vcard author">
+      By <a class="url fn" href="http://www.braux-zin.com/author/jim-braux-zin.html">Jim Braux-Zin</a>
+    </address>
+  </footer><!-- /.post-info -->
+  <div class="entry-content">
+    <p>My thesis' goal is the design of an augmented reality system. This broad subject led me to two main directions.</p>
+<h1 id="optical-see-through-augmented-reality">Optical-See-Through Augmented Reality</h1>
+<p><img alt="Our optical see-through prototype" src="http://www.braux-zin.com/images/seethrough/system.jpg" />
+Augmented Reality could be of great help for critical applications such as driving or surgery assistance. However in these cases every millisecond counts and the user cannot afford to add any latency to reality. This dismisses all <em>video see-through</em> solutions for <em>optical see-through</em> ones, where virtual augmentations are layered onto the reality thanks to a semi-transparent display. This adds new constraints on the system for proper alignment with reality. We focused on a tablet-like system composed of a transparent LCD screen and two localization devices (one to compute the pose relative to the environment and the other to locate the user). We believe this kind of systems would be more practical to the user (well-delimited window, no heavy head-mounted device) and the designer (less constraint on the weight, slower motion) relative to current head-mounted displays.</p>
+<h1 id="combining-direct-and-feature-based-costs-for-optical-flow-and-stereovision">Combining Direct and Feature-Based Costs for Optical Flow and Stereovision</h1>
+<p>The estimation of a dense motion field (optical flow) is a very important building block for many computer vision tasks such as 3d reconstruction. We introduce a new framework allowing to leverage the information provided by sparse feature matches (point or segment) to guide a dense iterative optical flow estimation out of local minima. This allows to vastly increase the convergence basin without any loss of accuracy. A wide range of application is then possible, without modification, such as wide-baseline stereovision or non-rigid surface registration.</p>
+<p class="standalone"><img alt="Reference image" src="http://www.braux-zin.com/images/daisy/4.png" title="Reference image" /> <img alt="Second image" src="http://www.braux-zin.com/images/daisy/2.png" title="Second image" /> <img alt="Depth" src="http://www.braux-zin.com/images/daisy/42.png" title="Computed depth map with detected self-occlusions in green" /></p>
+  </div><!-- /.entry-content -->
+</section>
+        </div>
+    </div>
+
+    <footer>
+        <address id="about">
+            Powered by <a href="http://getpelican.com/">Pelican</a>, <a href="http://python.org">Python</a>, <a href="http://getbootstrap.com/">Bootstrap</a> and <a href="http://bootswatch.com/">Bootswatch</a>.
+        </address><!-- /#about -->
+    </footer><!-- /#contentinfo -->
+</div>
+
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="//code.jquery.com/jquery-2.0.3.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<!-- Social scripts -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+
+</body>
+</html>
