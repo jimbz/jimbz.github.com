@@ -2,7 +2,7 @@ Title: Bio/Resume
 Date: 2013-10-25
 Order: 10
 
-![Profile picture] ({filename}/images/jim-braux-zin.jpg)
+![Profile picture] ({filename}/images/jim-braux-zin.jpg){: style="width:150px;" }
 Hi! My name is Jim and I am a French Ph.D. candidate in Computer Vision. I work at [CEA LIST][] under the supervision of [Adrien Bartoli][AB]. I am addressing exciting things such as augmented reality, 3d localization, 3d reconstruction and non-rigid surface registration.
 
 # Contact

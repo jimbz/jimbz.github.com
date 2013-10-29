@@ -47,6 +47,11 @@
 
 @import "bootswatch-slate.less";
 
+// Utility classes
+@import "utilities.less";
+@import "responsive-utilities.less";
+
+
 // Customizations
 body {
     padding-top: 50px;
@@ -69,9 +74,7 @@ aside {
     }
 }
 
-header {
-    .page-header;
-}
+header:extend(.page-header all) {}
 
 footer {
     .text-muted;
@@ -93,8 +96,7 @@ footer {
 }
 
 .content {
-    .make-md-column(8);
-    .make-md-column-offset(2);
+    .make-md-column(12);
     header {
         .page-header;
         h1 {
@@ -158,8 +160,4 @@ footer {
         .text-center;
     }
 }
-
-// Utility classes
-@import "utilities.less";
-@import "responsive-utilities.less";
 
