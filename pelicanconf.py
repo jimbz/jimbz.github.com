@@ -35,7 +35,7 @@ SOCIAL = (('You can add links in your config file', '#'),
 
 # Plugins
 PLUGIN_PATH = 'plugins'
-PLUGINS = ['pelican-bibtex']
+PLUGINS = ['pelican-bibtex', 'assets']
 PUBLICATIONS_SRC = 'content/pubs.bib'
 
 # Markdown options
