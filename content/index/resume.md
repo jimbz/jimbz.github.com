@@ -3,7 +3,7 @@ Date: 2013-10-25
 Order: 10
 
 ![Profile picture] ({filename}/images/jim-braux-zin.jpg){: style="width:150px;border-radius:50%;" }
-Hi! My name is Jim and I am a French Ph.D. candidate in Computer Vision. I work at [CEA LIST][] under the supervision of [Adrien Bartoli][AB]. I am addressing exciting things such as augmented reality, 3d localization, 3d reconstruction and non-rigid surface registration.
+Hi! My name is Jim and I am a French Ph.D. candidate in Computer Vision. I work at [CEA LIST][] under the supervision of [Adrien Bartoli][AB]. I am addressing exciting things such as **augmented reality**, **3d localization**, **3d reconstruction** and **non-rigid surface registration**. I am expected to defend my thesis on june 2014.
 
 # Education
 I enrolled in a _double-degree_ Master's degree at [Supélec][Supelec] (Paris, France) and [The Royal Institute of Technology (KTH)][KTH] (Stockholm, Sweden). I majored in digital communications and signal processing with minors in robotics and computer vision. I was deeply implicated in student associative projects such as [Enactus][].
@@ -44,7 +44,7 @@ I enrolled in a _double-degree_ Master's degree at [Supélec][Supelec] (Paris, F
 <section class="skills-section">
     <h1>Technical skills</h1>
     <div class="skills">
-        <h3>Expert (+4 years)</h3>
+        <h3>Expert (>4 years)</h3>
         <ul>
         <li>C++ (OpenCV, Eigen)</li>
         <li>GPGPU with CUDA</li>
