@@ -90,9 +90,10 @@ footer {
 .navbar {
     text-align: center;
 }
-.navbar-menu {
-    .collapse;
-    .navbar-collapse;
+.navbar-menu:extend(.collapse all, .navbar-collapse all) {
+    .dropdown-menu {
+        .text-left;
+    }
 }
 
 .content {
@@ -133,6 +134,20 @@ footer {
     h3 { .h4; }
     h4 { .h5; }
     h5 { .h6; }
+}
+
+.skills-section {
+    .make-row();
+    h1 {
+        .make-md-column(12);
+    }
+    ul:extend(.list-group all) {
+        li:extend(.list-group-item all) {
+        }
+    }
+    .skills {
+        .make-md-column(4);
+    }
 }
 
 .publications:extend(.list-group all) {}
