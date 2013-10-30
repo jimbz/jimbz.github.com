@@ -45,6 +45,7 @@ I enrolled in a _double-degree_ Master's degree at [Supélec][Supelec] (Paris, F
 <li>Global optimization by Particle Swarm Optimization</li>
 </ul>
 </div>
+</section>
 
 <section class="skills-section">
     <h1>Technical skills</h1>
@@ -72,7 +73,6 @@ I enrolled in a _double-degree_ Master's degree at [Supélec][Supelec] (Paris, F
         <li>Web development</li>
         </ul>
     </div>
-</section>
 </section>
 
 [G+]: https://google.com/+JimBrauxZin
