@@ -5,12 +5,6 @@ Order: 10
 ![Profile picture] ({filename}/images/jim-braux-zin.jpg){: style="width:150px;border-radius:50%;" }
 Hi! My name is Jim and I am a French Ph.D. candidate in Computer Vision. I work at [CEA LIST][] under the supervision of [Adrien Bartoli][AB]. I am addressing exciting things such as augmented reality, 3d localization, 3d reconstruction and non-rigid surface registration.
 
-# Contact
-You can add me on [Google+][G+] to share news and thoughts about computer vision and technology. Feel free to contact me by [e-mail](mailto:j.brauxzin@gmail.com) or [LinkedIn][]
-<script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
-<script type="IN/MemberProfile" data-id="http://www.linkedin.com/in/jimbz" data-format="hover" data-related="false"></script>
-.
-
 # Education
 I enrolled in a _double-degree_ Master's degree at [Supélec][Supelec] (Paris, France) and [The Royal Institute of Technology (KTH)][KTH] (Stockholm, Sweden). I majored in digital communications and signal processing with minors in robotics and computer vision. I was deeply implicated in student associative projects such as [Enactus][].
 
@@ -75,8 +69,6 @@ I enrolled in a _double-degree_ Master's degree at [Supélec][Supelec] (Paris, F
     </div>
 </section>
 
-[G+]: https://google.com/+JimBrauxZin
-[LinkedIn]: http://lnkd.in/2Ff7Ts
 [CEA LIST]: http://www.kalisteo.fr/en/index.htm
 [AB]: http://isit.u-clermont1.fr/~ab/
 [Supelec]: http://www.supelec.fr/374_p_14603/welcome.html
