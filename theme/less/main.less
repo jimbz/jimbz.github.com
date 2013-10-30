@@ -47,6 +47,11 @@
 
 @import "bootswatch-slate.less";
 
+// Utility classes
+@import "utilities.less";
+@import "responsive-utilities.less";
+
+
 // Customizations
 body {
     padding-top: 50px;
@@ -69,9 +74,7 @@ aside {
     }
 }
 
-header {
-    .page-header;
-}
+header:extend(.page-header all) {}
 
 footer {
     .text-muted;
@@ -87,14 +90,14 @@ footer {
 .navbar {
     text-align: center;
 }
-.navbar-menu {
-    .collapse;
-    .navbar-collapse;
+.navbar-menu:extend(.collapse all, .navbar-collapse all) {
+    .dropdown-menu {
+        .text-left;
+    }
 }
 
 .content {
-    .make-md-column(8);
-    .make-md-column-offset(2);
+    .make-md-column(12);
     header {
         .page-header;
         h1 {
@@ -133,6 +136,20 @@ footer {
     h5 { .h6; }
 }
 
+.skills-section {
+    .make-row();
+    h1 {
+        .make-md-column(12);
+    }
+    ul:extend(.list-group all) {
+        li:extend(.list-group-item all) {
+        }
+    }
+    .skills {
+        .make-md-column(4);
+    }
+}
+
 .publications:extend(.list-group all) {}
 .publication:extend(.list-group-item all) {}
 .publication {
@@ -158,8 +175,4 @@ footer {
         .text-center;
     }
 }
-
-// Utility classes
-@import "utilities.less";
-@import "responsive-utilities.less";
 
