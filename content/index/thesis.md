@@ -2,7 +2,7 @@ Title: Research
 Date: 2013-10-28
 Order: 20
 
-My thesis' goal is the design of an augmented reality system. This broad subject led me to two main directions.
+The goal of my thesis is the design and implementation of an augmented reality system. This broad subject led me to two main directions.
 
 # Optical-See-Through Augmented Reality
 ![Our optical see-through prototype][ost-system]
