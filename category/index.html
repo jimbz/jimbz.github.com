@@ -40,7 +40,6 @@
               $(this).click(function(event) { // when someone clicks these links
                   event.preventDefault(); // don't open the link yet
                   if (href.indexOf(".pdf")!==-1) {
-                      alert('OK!');
                       ga('send', 'pageview', href);
                   }
                   setTimeout(function() { // now wait 300 milliseconds...
