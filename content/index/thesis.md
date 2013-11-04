@@ -11,11 +11,12 @@ Augmented Reality could be of great help for critical applications such as drivi
 [ost-system]: {filename}/images/seethrough/system.jpg
 
 # Combining Direct and Feature-Based Costs for Optical Flow and Stereovision
-The estimation of a dense motion field (optical flow) is a very important building block for many computer vision tasks such as 3d reconstruction. We introduce a new framework allowing to leverage the information provided by sparse feature matches (point or segment) to guide a dense iterative optical flow estimation out of local minima. This allows to vastly increase the convergence basin without any loss of accuracy. A wide range of application is then possible, without modification, such as wide-baseline stereovision or non-rigid surface registration.
+The estimation of a dense motion field (optical flow) is a very important building block for many computer vision tasks such as 3d reconstruction. We introduce a new framework allowing to leverage the information provided by sparse feature matches (point or segment) to guide a dense iterative optical flow estimation out of local minima. This allows to vastly increase the convergence basin without any loss of accuracy. A wide range of application is then possible, without modification, such as wide-baseline stereovision or non-rigid surface registration. Our method is one of the top ranking methods on the [KITTI][] benchmark.
 
 ![Reference image][Daisy1] ![Second image][Daisy2] ![Depth][Daisy3]
 {: .standalone }
 
+[KITTI]: http://www.cvlibs.net/datasets/kitti/eval_stereo_flow_detail.php?benchmark=flow&error=3&eval=all&result=5ca150bba490fec5afa8ee7beaeeed8f0fc585ac
 [Daisy1]: {filename}/images/daisy/4.png "Reference image"
 [Daisy2]: {filename}/images/daisy/2.png "Second image"
 [Daisy3]: {filename}/images/daisy/42.png "Computed depth map with detected self-occlusions in green"

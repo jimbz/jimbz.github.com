@@ -27,11 +27,11 @@
         {% endif %}
         <span class="date">{{ formatted.date }}</span>
         <span class="links">
-        [&nbsp;<a href="javascript:disp('{{ bibtex|replace('\n', '\\n')|escape|forceescape }}');">Bibtex</a>&nbsp;]
+        <a href="javascript:disp('{{ bibtex|replace('\n', '\\n')|escape|forceescape }}');" class="bibtex">Bibtex</a>
         {% for label, target in [('PDF', pdf), ('Slides', slides), ('Poster', poster)] %}
-        {{ "[&nbsp;<a href=\"%s\">%s</a>&nbsp;]" % (target, label) if target }}
-        </span>
+        {{ "<a href=\"%s\" target=\"_blank\" class=\"docs\">%s</a>" % (target, label) if target }}
         {% endfor %}
+        </span>
         </li>
     {% endfor %}
     </ul>
