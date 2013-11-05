@@ -45,6 +45,8 @@
     {% endif %}
     {% endblock head %}
 
+    <!-- JQuery loaded first because needed for some inline scripts -->
+    <script src="//code.jquery.com/jquery-2.0.3.min.js"></script>
     {% include "analytics.html" %}
 </head>
 
@@ -106,7 +108,6 @@
 <!-- Bootstrap core JavaScript
     ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="//code.jquery.com/jquery-2.0.3.min.js"></script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 <!-- Social scripts -->
 <script type="text/javascript">
