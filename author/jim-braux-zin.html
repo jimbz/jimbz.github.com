@@ -88,14 +88,15 @@
         <div class="content" role="main">
 <section id="content">
 
-<article id="resume">
+<article itemscope itemtype="http://schema.org/Article" id="resume">
     <header>
-        <h1>
-            <a href="http://www.braux-zin.com/index.html#resume" rel="bookmark" title="Permalink to Resume">
+        <h1 itemprop="name">
+            <a href="http://www.braux-zin.com/index.html#resume" rel="bookmark" title="Permalink to Resume" itemprop="url">
                 Resume
             </a>
         </h1>
     </header>
+    <span itemprop="articleBody">
     <p><img alt="Profile picture" src="http://www.braux-zin.com/images/jim-braux-zin.jpg" style="width:150px;border-radius:50%;" />
 Hi! My name is Jim and I am a French Ph.D. candidate in Computer Vision. I work at <a href="http://www.kalisteo.fr/en/index.htm">CEA LIST</a> under the supervision of <a href="http://isit.u-clermont1.fr/~ab/">Adrien Bartoli</a>. I am addressing exciting things such as <em>augmented reality</em>, <em>3d localization</em>, <em>3d reconstruction</em> and <em>non-rigid surface registration</em>. I am expected to defend my thesis on <strong>june 2014</strong>. A full resume is available in <a href="http://www.braux-zin.com/pdf/brauxzin_resume.pdf">English</a> or in <a href="http://www.braux-zin.com/pdf/brauxzin_cv.pdf">French</a>.</p>
 <h1 id="education">Education</h1>
@@ -160,15 +161,17 @@ Hi! My name is Jim and I am a French Ph.D. candidate in Computer Vision. I work 
         </ul>
     </div>
 </section>
+    </span>
 </article>
-<article id="research">
+<article itemscope itemtype="http://schema.org/Article" id="research">
     <header>
-        <h1>
-            <a href="http://www.braux-zin.com/index.html#research" rel="bookmark" title="Permalink to Research">
+        <h1 itemprop="name">
+            <a href="http://www.braux-zin.com/index.html#research" rel="bookmark" title="Permalink to Research" itemprop="url">
                 Research
             </a>
         </h1>
     </header>
+    <span itemprop="articleBody">
     <p>The goal of my thesis is the design and implementation of an augmented reality system. This broad subject led me to two main directions.</p>
 <h1 id="optical-see-through-augmented-reality">Optical-See-Through Augmented Reality</h1>
 <p><img alt="Our optical see-through prototype" src="http://www.braux-zin.com/images/seethrough/system.jpg" />
@@ -176,6 +179,7 @@ Augmented Reality could be of great help for critical applications such as drivi
 <h1 id="combining-direct-and-feature-based-costs-for-optical-flow-and-stereovision">Combining Direct and Feature-Based Costs for Optical Flow and Stereovision</h1>
 <p>The estimation of a dense motion field (optical flow) is a very important building block for many computer vision tasks such as 3d reconstruction. We introduce a new framework allowing to leverage the information provided by sparse feature matches (point or segment) to guide a dense iterative optical flow estimation out of local minima. This allows to vastly increase the convergence basin without any loss of accuracy. A wide range of application is then possible, without modification, such as wide-baseline stereovision or non-rigid surface registration. Our method is one of the top ranking methods on the <a href="http://www.cvlibs.net/datasets/kitti/eval_stereo_flow_detail.php?benchmark=flow&amp;error=3&amp;eval=all&amp;result=5ca150bba490fec5afa8ee7beaeeed8f0fc585ac">KITTI</a> benchmark.</p>
 <p class="standalone"><img alt="Reference image" src="http://www.braux-zin.com/images/daisy/4.png" title="Reference image" /> <img alt="Second image" src="http://www.braux-zin.com/images/daisy/2.png" title="Second image" /> <img alt="Depth" src="http://www.braux-zin.com/images/daisy/42.png" title="Computed depth map with detected self-occlusions in green" /></p>
+    </span>
 </article>
 
 <script type="text/javascript">
