@@ -12,15 +12,17 @@
 <section id="content">
 
 {% for article in articles_page.object_list|reverse %}
-<article id="{{ article.slug }}">
+<article itemscope itemtype="http://schema.org/Article" id="{{ article.slug }}">
     <header>
-        <h1>
-            <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">
+        <h1 itemprop="name">
+            <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}" itemprop="url">
                 {{ article.title }}
             </a>
         </h1>
     </header>
+    <span itemprop="articleBody">
     {{ article.content }}
+    </span>
 </article>
 {% endfor %}
 
