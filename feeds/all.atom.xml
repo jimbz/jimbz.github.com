@@ -36,7 +36,7 @@ Hi! My name is Jim and I am a French Ph.D. candidate in Computer Vision. I work 
 &lt;h2&gt;Continuous Optimization&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Convex optimization (Gauss&amp;#8209;Newton, Levenberg&amp;#8209;Marquardt)&lt;/li&gt;
-&lt;li&gt;Total Variation regularization&lt;/li&gt;
+&lt;li&gt;Total (Generalized) Variation regularization&lt;/li&gt;
 &lt;li&gt;Global optimization by Particle Swarm Optimization&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
