@@ -11,7 +11,7 @@
         <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
 
-        <link rel="stylesheet" href="http://www.braux-zin.com/theme/css/style.min.css?347f8db6">
+        <link rel="stylesheet" href="http://www.braux-zin.com/theme/css/style.min.css?50246b4c">
 
     <title>Jim Braux-Zin's homepage</title>
 
@@ -97,11 +97,13 @@
             </a>
         </h1>
     </header>
-    <span itemprop="articleBody">
+    <span class="article-content" itemprop="articleBody">
     <p><img alt="Profile picture" src="http://www.braux-zin.com/images/jim-braux-zin.jpg" style="width:150px;border-radius:50%;" />
-Hi! My name is Jim and I am a French Ph.D. candidate in Computer Vision. I work at <a href="http://www.kalisteo.fr/en/index.htm">CEA LIST</a> under the supervision of <a href="http://isit.u-clermont1.fr/~ab/">Adrien Bartoli</a>. I am addressing exciting things such as <em>augmented reality</em>, <em>3d localization</em>, <em>3d reconstruction</em> and <em>non-rigid surface registration</em>. I am expected to defend my thesis on <strong>june 2014</strong>. A full resume is available in <a href="http://www.braux-zin.com/pdf/brauxzin_resume.pdf">English</a> or in <a href="http://www.braux-zin.com/pdf/brauxzin_cv.pdf">French</a>.</p>
+Hi! My name is Jim and I am a French Ph.D. candidate in Computer Vision. I work at <a href="http://www.kalisteo.fr/en/index.htm">CEA LIST</a> under the supervision of <a href="http://isit.u-clermont1.fr/~ab/">Adrien Bartoli</a>. I am addressing exciting things such as <em>augmented reality</em>, <em>3d localization</em>, <em>3d reconstruction</em> and <em>non-rigid surface registration</em>.
+<br/><br/>
+I am expected to defend my thesis in <strong>june 2014</strong>. I am mainly looking for exciting Computer Vision projects but I am open to any challenge, I would especially like to try my hand at some machine learning or big data applications. A full resume is available in <a href="http://www.braux-zin.com/pdf/brauxzin_resume.pdf">English</a> or in <a href="http://www.braux-zin.com/pdf/brauxzin_cv.pdf">French</a>.</p>
 <h1 id="education">Education</h1>
-<p>I enrolled in a <em>double-degree</em> Master's degree at <a href="http://www.supelec.fr/374_p_14603/welcome.html">Supélec</a> (Paris, France) and <a href="http://www.kth.se/en">The Royal Institute of Technology (KTH)</a> (Stockholm, Sweden). I majored in digital communications and signal processing with minors in robotics and computer vision. I was deeply involved in student associative projects such as <a href="http://enactus.org/">Enactus</a>.</p>
+<p>I enrolled in a <em>double-degree</em> Master's degree at <a href="http://www.supelec.fr/374_p_14603/welcome.html">Supélec</a> (Paris, France) and <a href="http://www.kth.se/en">The Royal Institute of Technology (KTH)</a> (Stockholm, Sweden). I majored in digital communications and signal processing with minors in robotics and computer vision. I was deeply implicated in student associative projects such as <a href="http://enactus.org/">Enactus</a>.</p>
 <section class="skills-section">
 <h1>Scientific skills</h1>
 
@@ -129,7 +131,7 @@ Hi! My name is Jim and I am a French Ph.D. candidate in Computer Vision. I work 
 <h2>Continuous Optimization</h2>
 <ul>
 <li>Convex optimization (Gauss&#8209;Newton, Levenberg&#8209;Marquardt)</li>
-<li>Total (Generalized) Variation regularization</li>
+<li>Total Variation regularization</li>
 <li>Global optimization by Particle Swarm Optimization</li>
 </ul>
 </div>
@@ -172,14 +174,14 @@ Hi! My name is Jim and I am a French Ph.D. candidate in Computer Vision. I work 
             </a>
         </h1>
     </header>
-    <span itemprop="articleBody">
+    <span class="article-content" itemprop="articleBody">
     <p>The goal of my thesis is the design and implementation of an augmented reality system. This broad subject led me to two main directions.</p>
 <h1 id="optical-see-through-augmented-reality">Optical-See-Through Augmented Reality</h1>
 <p><img alt="Our optical see-through prototype" src="http://www.braux-zin.com/images/seethrough/system.jpg" />
 Augmented Reality could be of great help for critical applications such as driving or surgery assistance. However in these cases every millisecond counts and the user cannot afford to add any latency to reality. This dismisses all <em>video see-through</em> solutions for <em>optical see-through</em> ones, where virtual augmentations are layered onto the reality thanks to a semi-transparent display. This adds new constraints on the system for proper alignment with reality. We focused on a tablet-like system composed of a transparent LCD screen and two localization devices (one to compute the pose relative to the environment and the other to locate the user). We believe this kind of systems would be more practical to the user (well-delimited window, no heavy head-mounted device) and the designer (less constraint on the weight, slower motion) relative to current head-mounted displays.</p>
 <h1 id="combining-direct-and-feature-based-costs-for-optical-flow-and-stereovision">Combining Direct and Feature-Based Costs for Optical Flow and Stereovision</h1>
 <p>The estimation of a dense motion field (optical flow) is a very important building block for many computer vision tasks such as 3d reconstruction. We introduce a new framework allowing to leverage the information provided by sparse feature matches (point or segment) to guide a dense iterative optical flow estimation out of local minima. This allows to vastly increase the convergence basin without any loss of accuracy. A wide range of application is then possible, without modification, such as wide-baseline stereovision or non-rigid surface registration. Our method is one of the top ranking methods on the <a href="http://www.cvlibs.net/datasets/kitti/eval_stereo_flow_detail.php?benchmark=flow&amp;error=3&amp;eval=all&amp;result=5ca150bba490fec5afa8ee7beaeeed8f0fc585ac">KITTI</a> benchmark.</p>
-<p class="standalone"><img alt="Wide-baseline stereo" src="http://www.braux-zin.com/images/dense_matching/daisy25.gif" style="width:auto;height:200px;" title="Wide-baseline stereo" /> <img alt="Wide-baseline non-rigid registration" src="http://www.braux-zin.com/images/dense_matching/michelle.gif" style="width:auto;height:200px;" title="Wide-baseline non-rigid registration" /></p>
+<p class="standalone"><img alt="Reference image" src="http://www.braux-zin.com/images/daisy/4.png" title="Reference image" /> <img alt="Second image" src="http://www.braux-zin.com/images/daisy/2.png" title="Second image" /> <img alt="Depth" src="http://www.braux-zin.com/images/daisy/42.png" title="Computed depth map with detected self-occlusions in green" /></p>
     </span>
 </article>
 
