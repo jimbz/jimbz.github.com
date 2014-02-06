@@ -8,7 +8,7 @@ Hi! My name is Jim and I am a French Ph.D. candidate in Computer Vision. I work 
 I am expected to defend my thesis in **june 2014**. I am mainly looking for exciting Computer Vision projects but I am open to any challenge, I would especially like to try my hand at some machine learning or big data applications. A full resume is available in [English][resume] or in [French][CV].
 
 # Education
-I enrolled in a _double-degree_ Master's degree at [Supélec][Supelec] (Paris, France) and [The Royal Institute of Technology (KTH)][KTH] (Stockholm, Sweden). I majored in digital communications and signal processing with minors in robotics and computer vision. I was deeply implicated in student associative projects such as [Enactus][].
+I enrolled in a _double-degree_ Master's degree at [Supélec][Supelec] (Paris, France) and [The Royal Institute of Technology (KTH)][KTH] (Stockholm, Sweden). I majored in digital communications and signal processing with minors in robotics and computer vision. I was deeply involved in student associative projects such as [Enactus][].
 
 <section class="skills-section">
 <h1>Scientific skills</h1>
@@ -37,7 +37,7 @@ I enrolled in a _double-degree_ Master's degree at [Supélec][Supelec] (Paris, F
 <h2>Continuous Optimization</h2>
 <ul>
 <li>Convex optimization (Gauss&#8209;Newton, Levenberg&#8209;Marquardt)</li>
-<li>Total Variation regularization</li>
+<li>Total (Generalized) Variation regularization</li>
 <li>Global optimization by Particle Swarm Optimization</li>
 </ul>
 </div>
