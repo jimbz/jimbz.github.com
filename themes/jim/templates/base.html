@@ -1,5 +1,6 @@
 {% from 'navbar.html' import navbar %}
 {% from 'analytics.html' import analytics_head, analytics_body %}
+{% from 'chat.html' import chat %}
 <!DOCTYPE html>
 <html lang="{{ DEFAULT_LANG }}">
 <head>
@@ -117,5 +118,6 @@
   })();
 </script>
 {{ analytics_body() }}
+{{ chat() }}
 </body>
 </html>
