@@ -123,7 +123,7 @@
                   event.preventDefault(); // don't open the link yet
                   ga('send', 'pageview', href);
                   setTimeout(function() { // now wait 300 milliseconds...
-                      window.open(href,(!target?"_blank":target)); // ...and open the link as usual
+                      window.open(href,(!target?"_self":target)); // ...and open the link as usual
                   },300);
               }
           });
