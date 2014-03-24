@@ -29,7 +29,7 @@
         <span class="links">
         <a href="javascript:disp('{{ bibtex|replace('\n', '\\n')|escape|forceescape }}');" class="bibtex">Bibtex</a>
         {% for label, target in [('PDF', pdf), ('Slides', slides), ('Poster', poster)] %}
-        {{ "<a href=\"%s\" target=\"_blank\" class=\"docs\">%s</a>" % (target, label) if target }}
+        {{ "<a href=\"%s\" class=\"docs\">%s</a>" % (target, label) if target }}
         {% endfor %}
         </span>
         </li>
