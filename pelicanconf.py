@@ -21,7 +21,7 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 CONTACT = (
-        ('Email', 'mailto:j.brauxin@gmail.com', 'send'),
+        ('Email', 'mailto:j.brauxzin@gmail.com', 'send'),
         ('Google+', 'https://google.com/+JimBrauxZin', '//ssl.gstatic.com/images/icons/gplus-16.png'),
         ('LinkedIn', 'http://lnkd.in/2Ff7Ts', 'images/linkedin.png'),
         )
